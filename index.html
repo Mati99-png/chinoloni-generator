@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="flex flex-col items-center mt-12">
+
+    <h1 class="text-2xl font-semibold text-gray-800 mb-6">Random farmaci</h1>
+
+    <ul class="space-y-2 mb-8">
+        <li class="cursor-pointer text-lg text-blue-500 hover:text-blue-700" onclick="showRandomImage('antibatterici')">Antibatterici</li>
+        <li class="cursor-pointer text-lg text-blue-500 hover:text-blue-700" onclick="showRandomImage('antifungini')">Antifungini</li>
+        <li class="cursor-pointer text-lg text-blue-500 hover:text-blue-700" onclick="showRandomImage('antimalarici')">Antimalarici</li>
+        <li class="cursor-pointer text-lg text-blue-500 hover:text-blue-700" onclick="showRandomImage('antitumorali')">Antitumorali</li>
+        <li class="cursor-pointer text-lg text-blue-500 hover:text-blue-700" onclick="showRandomImage('antivirali')">Antivirali</li>
+        <li class="cursor-pointer text-lg text-blue-500 hover:text-blue-700" onclick="showRandomImage('chinoloni')">Chinoloni</li>
+        <li class="cursor-pointer text-lg text-blue-500 hover:text-blue-700" onclick="showRandomImage('sulfamidici')">Sulfamidici</li>
+    </ul> 
+    
+    <img id="drugImage" src="" alt="Drug Image" class="max-w-md max-h-96 mt-6 hidden">
+
+    <script src="main.js"></script>
+
+</body>
+</html>
